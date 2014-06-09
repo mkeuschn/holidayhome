@@ -25,14 +25,15 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/holidayhome.css" rel="stylesheet">
 </head>
 <body>
 <div class="navbar-wrapper">
     <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,22 +46,11 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
-                                    class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#flat">Wohnung</a></li>
+                        <li><a href="#eat">Essen</a></li>
+                        <li><a href="#sightseeing">Sightseeing</a></li>
+                        <li><a href="#sport">Sport</a></li>
+                        <li><a href="#citytrips">City Trips</a></li>
                     </ul>
                 </div>
             </div>
@@ -96,12 +86,12 @@
 
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Das Nachtleben</h1>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    <h1>
+                        Das Nachtleben
+                    </h1>
+                    <p>
+                        Velden, Pörtschach, Villach oder Klagenfurt
+                    </p>
                 </div>
             </div>
         </div>
@@ -111,11 +101,9 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Sport</h1>
-
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                    <p>
+                        Möglichkeiten für Sommersport und Wintersport
+                    </p>
                 </div>
             </div>
         </div>
@@ -180,7 +168,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="flat" class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Die Wohnung
             </h2>
@@ -217,7 +205,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="eat" class="row featurette">
         <div class="col-md-5">
             <img class="featurette-image img-responsive" data-src="holder.js/500x700/auto" alt="Generic placeholder image">
         </div>
@@ -243,7 +231,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="sightseeing" class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">
                 Kärnten ist auch Land des Sightseeings
@@ -267,7 +255,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="sport" class="row featurette">
         <div class="col-md-5">
             <img class="featurette-image img-responsive" data-src="holder.js/500x800/auto"
                  alt="Generic placeholder image">
@@ -295,7 +283,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div id="citytrips" class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">City Trips <span class="text-muted"></span></h2>
 
@@ -318,31 +306,50 @@
 
     <hr class="featurette-divider">
 
+    <div id="approach" class="row featurette">
+        <div class="col-md-12">
+            <div id="map-canvas"></div>
+        </div>
+    </div>
 
-
-
-
-
+    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
-
-
-    <!-- FOOTER -->
-    <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-
 </div>
 <!-- /.container -->
 
+
+<div class="container-fluid footer">
+    <!-- FOOTER -->
+    <footer>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+                <h3>Kontakt</h3>
+                Gertrude Ogris<br/>
+                Martiniweg 34<br/>
+                9220 Lind ob Velden<br/>
+                Tel.: 04274 4630
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"></div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <p class="pull-right"><a href="#">Seitenanfang</a></p>
+            </div>
+        </div>
+        <!--
+        <div class="row">
+            <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+        -->
+    </footer>
+</div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/holder/holder.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
