@@ -1,0 +1,19 @@
+{
+  "name": "holiday-home",
+  "description": "Web Application for a Holiday Home",
+  "version": "0.0.1",
+  "homepage": "http://www.carinthia.io",
+  "author": {
+    "name": "Zoran Nakev",
+    "email": "zoran.nakev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkeuschn/holidayhome.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-ftp-deploy": "^0.1.3"
+  }
+}
