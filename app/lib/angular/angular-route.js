@@ -274,7 +274,7 @@ function $RouteProvider(){
      * to get it working on jsfiddle as well.
      *
      * <example name="$route-service" module="ngRouteExample"
-     *          deps="angular-route.js" fixBase="true">
+     *          deps="angular-routes.js" fixBase="true">
      *   <file name="index.html">
      *     <div ng-controller="MainController">
      *       Choose:
@@ -676,7 +676,7 @@ ngRouteModule.directive('ngView', ngViewFillContentFactory);
  *                    as an expression yields a truthy value.
  * @example
     <example name="ngView-directive" module="ngViewExample"
-             deps="angular-route.js;angular-animate.js"
+             deps="angular-routes.js;angular-animate.js"
              animations="true" fixBase="true">
       <file name="index.html">
         <div ng-controller="MainCtrl as main">
