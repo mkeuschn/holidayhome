@@ -140,7 +140,7 @@ body {
 .footer {
     bottom: 0;
     width: 100%;
-    background-color: #777;
+    background-color: #333333;
     color: #ffffff;
     padding: 60px;
 }
@@ -152,4 +152,13 @@ body {
     height: 400px;
     margin: 0px;
     padding: 0px
+}
+
+.facebook {
+    color: #ffffff;
+}
+
+.facebook:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
