@@ -1,11 +1,5 @@
-/*
-require(["HolidayHome"], function(HolidayHome) {
-    HolidayHome.controller("ContentController", ['$scope', function($scope) {
-        $scope.test = 'Test';
+define(['app'], function(app) {
+    app.controller("ContentController", ['$scope', function($scope) {
+        // Controller stuff ...
     }]);
 });
-*/
-
-HolidayHome.controller('ContentController', ['$scope', function($scope) {
-    $scope.test = 'Hello world!';
-}]);
