@@ -22,6 +22,8 @@ Web application for a holiday home
  - http://jsfiddle.net/X5vhQ/
  - http://kielczewski.eu/2013/04/integrating-angularjs-with-requirejs/
  - https://startersquad.com/blog/angularjs-requirejs/
+ - http://solutionoptimist.com/2013/09/30/requirejs-angularjs-dependency-injection/
+ - http://beletsky.net/2013/11/using-angular-dot-js-with-require-dot-js.html
 
 ## Links ##
 
