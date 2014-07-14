@@ -45,6 +45,18 @@ body {
     z-index: 10;
 }
 
+html,body {
+    height:100%;
+}
+
+.carousel,.item,.active {
+    height:100%;
+}
+
+.carousel-inner {
+    height:100%;
+}
+
 
 
 /* MARKETING CONTENT
@@ -72,6 +84,10 @@ body {
 
 /* Featurettes
 ------------------------- */
+
+.featurette-image {
+    margin-top: 70px;
+}
 
 .featurette-divider {
     margin: 80px 0; /* Space out the Bootstrap <hr> more */
@@ -129,7 +145,7 @@ body {
 
 @media (min-width: 992px) {
     .featurette-heading {
-        margin-top: 120px;
+        /*margin-top: 120px;*/
     }
 }
 
@@ -161,4 +177,17 @@ body {
 .facebook:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.margin-dropdown {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.no-wrap-sm {
+    min-width: 120px;
+}
+
+.no-wrap-xs {
+    min-width: 60px;
 }

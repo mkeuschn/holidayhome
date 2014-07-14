@@ -6,7 +6,13 @@ define([], function() {
         {
             zoom: 16,
             center: new google.maps.LatLng(22.7964,79.5410),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{
+                featureType: "poi",
+                stylers: [
+                    { visibility: "off" }
+                ]
+            }]
         });
 
     var address = "Martiniweg 34, 9220 Lind ob Velden";
