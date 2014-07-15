@@ -6,7 +6,7 @@ module.exports = function (grunt) {
         // pkg: grunt.file.readJSON('package.json'),
 
         'ftp-deploy': {
-            build: {
+            src: {
                 auth: {
                     host: 'w01215ad.kasserver.com',
                     port: 21,
@@ -14,6 +14,17 @@ module.exports = function (grunt) {
                 },
                 src: 'app',
                 dest: '.',
+                exclusions: ['app/**/.DS_Store', 'app/**/Thumbs.db', 'app/lib']
+            },
+
+            lib: {
+                auth: {
+                    host: 'w01215ad.kasserver.com',
+                    port: 21,
+                    authKey: 'key'
+                },
+                src: 'app/lib/.',
+                dest: './lib/.',
                 exclusions: ['app/**/.DS_Store', 'app/**/Thumbs.db']
             }
         }
@@ -21,5 +32,7 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-ftp-deploy');
 
-    grunt.registerTask('default', ['ftp-deploy']);
+    grunt.registerTask('deploy-libraries', ['ftp-deploy:lib']);
+
+    grunt.registerTask('default', ['ftp-deploy:src']);
 };
