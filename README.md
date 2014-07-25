@@ -5,9 +5,8 @@ Web application for a holiday home
 
  - node
  - npm
- - grunt global
- - grunt local
- - grunt ftp plugin
+ - grunt global (npm install -g grunt-cli)
+ - dependencies (grunt install)
 
 
 ## Test Environment ##
@@ -30,7 +29,7 @@ Web application for a holiday home
  - http://www.castle-climbing.co.uk/
  - http://archclimbingwall.com/
  
- ## Carousel ##
- 
-  - http://stackoverflow.com/questions/19469705/bootstrap-carousel-as-website-background
-  - http://parkhurstdesign.com/improved-carousels-twitter-bootstrap/
+## Carousel ##
+
+ - http://stackoverflow.com/questions/19469705/bootstrap-carousel-as-website-background
+ - http://parkhurstdesign.com/improved-carousels-twitter-bootstrap/
